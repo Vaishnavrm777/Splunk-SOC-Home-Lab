@@ -32,16 +32,6 @@ The environment collects Windows and Sysmon telemetry through Splunk Universal F
 - MITRE ATT&CK Framework
 
 
-## Tools & Technologies
-
-- Splunk Enterprise
-- Splunk Universal Forwarder
-- Sysmon
-- Windows Event Logs
-- SPL (Search Processing Language)
-- MITRE ATT&CK Framework
-
-
 ## Data Sources
 
 | Data Source | Description |
