@@ -17,21 +17,6 @@ The lab was designed to simulate real-world SOC workflows including:
 The environment collects Windows and Sysmon telemetry through Splunk Universal Forwarder and analyzes the data using SPL queries and SOC detections.
 
 
-## Architecture
-
-```text
-Windows Endpoint
-      ↓
-Sysmon + Windows Event Logs
-      ↓
-Splunk Universal Forwarder
-      ↓
-Splunk Enterprise SIEM
-      ↓
-Detections, Alerts & Dashboards
-```
-
-
 ## Architecture Diagram
 
 ![SOC Architecture](Architecture/soc_architecture.png)
