@@ -4,15 +4,16 @@
 
 This project demonstrates the implementation of a Security Operations Center (SOC) home lab using Splunk Enterprise, Sysmon, and Windows Event Logs.
 
-The lab was designed to simulate real-world SOC workflows including:
+## Project Highlights
 
-- Log ingestion
-- Endpoint telemetry collection
-- Detection engineering
-- Alert creation
-- Threat hunting
-- Dashboard monitoring
-- MITRE ATT&CK mapping
+* 14 Active Detections
+* 2 Correlation-Based Detections
+* MITRE ATT&CK Mapping
+* Sysmon Event Monitoring
+* Splunk Alerting
+* Detection Coverage Tracking
+* Threat Hunting Workflows
+* Behavioral Detection Engineering
 
 The environment collects Windows and Sysmon telemetry through Splunk Universal Forwarder and analyzes the data using SPL queries and SOC detections.
 
@@ -53,6 +54,24 @@ Implemented detections include:
 - Certutil LOLBin Detection
 - Office Spawning PowerShell Detection
 - Network Connection Monitoring
+
+## Detection Coverage
+
+Current Detection Library: 14 Detections
+
+### Behavioral Detections
+
+* CMD → PowerShell
+* Explorer → PowerShell
+* Office → PowerShell
+* PowerShell Download Activity
+* Suspicious User Directory Execution
+* WMI Activity Detection
+
+### Correlation Detections
+
+* Failed Logins Followed by Success
+* PowerShell + Network Activity
 
 ## MITRE ATT&CK Mapping
 
