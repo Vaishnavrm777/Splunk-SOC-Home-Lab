@@ -107,6 +107,41 @@ Through this project I gained hands-on experience in:
 - MITRE ATT&CK mapping
 - Troubleshooting log ingestion and permission issues
 
+## Roadmap
+
+This project is continuously being expanded to improve detection coverage, threat hunting capabilities, and SOC monitoring workflows.
+
+### Completed
+
+* [x] Splunk Enterprise Deployment
+* [x] Splunk Universal Forwarder Configuration
+* [x] Sysmon Integration
+* [x] Windows Event Log Ingestion
+* [x] SOC Monitoring Dashboard
+* [x] Alert Engineering
+* [x] MITRE ATT&CK Mapping
+* [x] Detection Coverage Tracking
+* [x] Behavioral Detections
+* [x] Correlation-Based Detections
+* [x] GitHub Documentation
+* [x] Medium Technical Writeup
+
+### In Progress
+
+* [ ] Sigma Rule Conversion
+* [ ] Additional Correlation Searches
+* [ ] Threat Simulation Validation
+* [ ] Detection Tuning
+
+### Planned
+
+* [ ] Registry Persistence Detection
+* [ ] Atomic Red Team Integration
+* [ ] Threat Intelligence Enrichment
+* [ ] Wazuh Integration
+* [ ] Multi-Endpoint Log Collection
+* [ ] Advanced Threat Hunting Use Cases
+
 
 ## Future Improvements
 
